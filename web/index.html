@@ -3,36 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <title>Senior Front End</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <header class="container-lg h-75">
-        <div class="row p-4">
-            <div class="col-6 fs-6">
-                <a class="navbar-brand text-dark" href="#">Homane.</a>
-            </div>
-            <div class="col-6">
-                <nav class="d-flex justify-content-start">
-                    <ul class="nav justify-content-end fs-6">
+    <header class="container-lg h-75 header">
+
+
+
+
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">Homane.</a>
+                <button class="navbar-toggler btn-sm border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="menu-nav collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 text-uppercase">
                         <li class="nav-item">
-                            <a class="nav-link active text-dark" aria-current="page" href="#">Active</a>
+                            <a class="nav-link active text-dark bg-secondary py-1 px-10" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Link</a>
+                            <a class="nav-link text-dark py-1 px-10" href="#">About Josh</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Link</a>
+                            <a class="nav-link text-dark py-1 px-10" href="#">Service</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link text-dark py-1 px-10" href="#">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark py-1 px-10" href="#">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark py-1 px-10" href="#">Contact</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container-fluid mt-4 p-0 w-100 vh-100 position-relative">
+        <img class="w-100 vh-100" src="assets/img/landing.jpg" alt="landing">
+        <div class="container-landing-text position-absolute top-0 bottom-0 w-75 mx-auto d-flex flex-column justify-content-center align-items-start">
+            <p class="over-title fs-6 text-uppercase text-white">hi there, i am josh homane.</p>
+            <h1 class="text-white">Senior FrontEnd Developer</h1>
+            <button class="btn-landing btn btn-dark btn-lg rounded-0 mt-4" type="button">Download Resumen PDF</button>
+        </div>
+    </section>
+    <section class="container-lg w-75 my-5 pt-5">
+        <div class="row">
+            <div class="col-lg-3 ps-0">
+                <div class="container-img-man w-100 overflow-hidden">
+                    <img class="w-100" src="assets/img/man.jpg" alt="man">
+                </div>
+            </div>
+            <div class="about-text-cont col py-3">
+                <h2 class="text-dark">alittle about Josh</h2>
+                <p class="text-secondary">Senior FrontEnd Developer</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad animi aut consectetur corporis culpa dignissimos dolore dolorum eaque eum ex facilis fugiat, ipsam laborum libero magnam maiores minima modi molestias nulla repellat repudiandae rerum sed tempora ullam ut voluptas. Dignissimos distinctio hic quae quos. Delectus distinctio eum ipsum reprehenderit!</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, iste?</p>
+                <p class="text-secondary">Checks my works there <a class="text-dark text-decoration-none" href="#">Dribble</a>, <a class="text-dark text-decoration-none" href="#">Behance</a> and <a class="text-dark text-decoration-none" href="#">Twitter</a> lorem ipsum dolor sit.</p>
             </div>
         </div>
-    </header>
-    <section class="container-fluid landing m-0 w-auto h-50 overflow-hidden position-relative">
-        <img src="assets/img/landing.jpg" alt="landing" class="position-absolute top-0 d-flex flex-column justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-lg-3 about-text-cont pt-4 ps-3">
+                <p class="my-1"><span class="text-dark fw-bold">Birthday - </span> December 14, 1993</p>
+                <p class="my-1"><span class="text-dark fw-bold">Location - </span> New Street 75, New York, USA</p>
+                <p class="my-1"><span class="text-dark fw-bold">Phone - </span> 001 024 7823 8402</p>
+                <p class="my-1"><span class="text-dark fw-bold">Email - </span> contact@youremail.com</p>
+            </div>
+        </div>
     </section>
+    <section class="container-fluid bg-secondary py-5">
+        <div class="container-lg w-75 mx-auto">
+            <div class="row">
+                <h2>what i Do</h2>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, mollitia?</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md pe-5">
+                    <div class="cont-icon mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <img class="w-100" src="assets/icon/digital-photography.png" alt="icon">
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur culpa id inventore obcaecati vitae.</p>
+                </div>
+                <div class="col-md">
+                    <div class="cont-icon mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <img class="w-100" src="assets/icon/html.png" alt="icon">
+                    </div>
+                    <h3 class="text-uppercase">html5 & css3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur culpa id inventore obcaecati vitae.</p>
+                </div>
+                <div class="col-md">
+                    <div class="cont-icon mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <img class="w-100" src="assets/icon/telegram.png" alt="icon">
+                    </div>
+                    <h3>Branding Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur culpa id inventore obcaecati vitae.</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid py-5">
+        <div class="container-lg w-75 mx-auto">
+            <div class="row">
+                <h2>my Resume</h2>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md pe-5">
+                    <div class="d-flex justify-content-start align-items-start gap-2">
+                        <div class="cont-icon-resume mb-3 bg-white d-flex justify-content-center align-items-center">
+                            <img class="w-100 pt-1" src="assets/icon/pie-chart.png" alt="icon">
+                        </div>
+                        <h3>Master Degree of Design</h3>
+                    </div>
+                    <p class="fw-bold text-secondary pb-4 border-bottom ">Harvard Hart College / May,2014 - August 2015</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ad amet commodi culpa ducimus eligendi illo ipsam iusto, minima nam nobis placeat quaerat repudiandae, voluptatum!</p>
+                </div>
+                <div class="col-md">
+                    <div class="d-flex justify-content-start align-items-start gap-2">
+                        <div class="cont-icon-resume mb-3 bg-white d-flex justify-content-center align-items-center">
+                            <img class="w-100 pt-1" src="assets/icon/telegram%20(1).png" alt="icon">
+                        </div>
+                        <h3>Frontend Developer</h3>
+                    </div>
+                    <p class="fw-bold text-secondary pb-4 border-bottom ">Marvel Agency (startup) / Nov,2014 - Dec 2017</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ad amet commodi culpa ducimus eligendi illo ipsam iusto, minima nam nobis placeat quaerat repudiandae, voluptatum!</p>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-secondary py-5">
+        <div class="container-lg w-75 mx-auto">
+            <div class="row">
+                <h2>Selected Works</h2>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, mollitia?</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(1).jpg" alt="icon">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(2).jpg" alt="icon">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(3).jpg" alt="icon">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(4).jpg" alt="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(5).jpg" alt="icon">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="position-relative cont-img-gallery w-100 overflow-hidden mb-3 bg-white d-flex justify-content-center align-items-center">
+                        <div class="position-absolute card-hover top-0 bottom-0 start-0 end-0 d-flex flex-column justify-content-center align-items-start p-5 bg-white opacity-25">
+                            <p>Work Title</p>
+                            <h3>Branding Design</h3>
+                        </div>
+                        <img class="w-100" src="assets/img/img%20(6).jpg" alt="icon">
+                    </div>
+                </div>
+                <div class="col-sm">
+                </div>
+                <div class="col-sm">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid my-5 py-5">
+        <div class="container-lg w-75 mx-auto">
+            <div class="row">
+                <h2>Get in Touch</h2>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, mollitia?</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="w-100 d-flex gap-4 justify-content-between align-items-center">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label"></label>
+                                <input type="email" class="form-control rounded-0 border-0 border-bottom" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"></label>
+                                <input type="password" class="form-control rounded-0 border-0 border-bottom" id="exampleInputPassword1" placeholder="Contraseña">
+                            </div>
+                        </div>
+                        <div class="form-textarea mb-3">
+                            <textarea class="form-control rounded-0 border-0 border-bottom" placeholder="Mensaje" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea"></label>
+                        </div>
+                        <div class="w-100 text-end">
+                            <button type="submit" class="btn btn-dark rounded-0">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg">
+                    <h2>Contact Info</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eius, molestias nostrum odio perferendis sequi tempora tempore ut voluptate voluptatum!</p>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col pe-0">
+                                <div class="cont-icon-contact mb-3 me-0 bg-white d-flex justify-content-center align-items-center">
+                                    <img class="w-100 pt-1" src="assets/icon/pin.png" alt="icon">
+                                </div>
+                            </div>
+                            <div class="col-11 ps-0">
+                                <p class="m-0">456 New Street 22000, New York City, USA</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col pe-0">
+                                <div class="cont-icon-contact mb-3 me-0 bg-white d-flex justify-content-center align-items-center">
+                                    <img class="w-100 pt-1" src="assets/icon/email.png" alt="icon">
+                                </div>
+                            </div>
+                            <div class="col-11 ps-0">
+                                <p class="m-0">hello@johs2homanedesign.co</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col pe-0">
+                                <div class="cont-icon-contact mb-3 me-0 bg-white d-flex justify-content-center align-items-center">
+                                    <img class="w-100 pt-1" src="assets/icon/phone-call.png" alt="icon">
+                                </div>
+                            </div>
+                            <div class="col-11 ps-0">
+                                <p class="m-0">001 202 2342 872</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid bg-secondary mt-5 py-5">
+        <div class="container-lg w-75 mx-auto text-center">
+            <p class="text-secondary">Copyright &copy; 2017 Homane Template | All Rights Reserved.</p>
+        </div>
+        <section class="row mt-2 w-100 d-flex justify-content-center align-items-center">
+            <div class="col-1 col-footer-icon">
+                <div class="cont-icon-footer bg-white rounded-circle d-flex justify-content-center align-items-center">
+                    <a href=""> <img class="w-100" src="assets/icon/facebook.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="col-1 col-footer-icon">
+                <div class="cont-icon-footer bg-white rounded-circle d-flex justify-content-center align-items-center">
+                    <a href=""> <img class="w-100" src="assets/icon/twitter.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="col-1 col-footer-icon">
+                <div class="cont-icon-footer bg-white rounded-circle d-flex justify-content-center align-items-center">
+                    <a href=""><img class="w-100" src="assets/icon/instagram.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="col-1 col-footer-icon">
+                <div class="cont-icon-footer bg-white rounded-circle d-flex justify-content-center align-items-center">
+                    <a href="#"><img class="w-100" src="assets/icon/behance.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="col-1 col-footer-icon">
+                <div class="cont-icon-footer bg-white rounded-circle d-flex justify-content-center align-items-center">
+                    <a href="#"><img class="w-100" src="assets/icon/github.png" alt="icon"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
+<script src="assets/js/bootstrap.min.js"></script>
 </html>

@@ -1,0 +1,97 @@
+body {
+    margin: initial !important;
+    padding: 0 !important;
+}
+
+p {
+    font-size: .75rem !important;
+    padding-left: 0 !important;
+}
+
+h2 {
+    padding-left: 0 !important;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+img {
+    object-fit: cover;
+}
+
+.header {
+    max-width: 75%;
+}
+
+.menu-nav > ul > li > a {
+    font-size: .7rem !important;
+}
+
+.navbar-brand {
+    font-size: 1rem !important;
+}
+
+.container-landing-text {
+    left: 0;
+    right: 0;
+}
+
+.over-title {
+    letter-spacing: .4rem;
+}
+
+.btn-landing {
+    font-size: .8rem !important;
+}
+
+.container-img-man {
+    height: 40vh;
+}
+
+.cont-icon {
+    width: 4rem;
+    height: 4rem;
+    padding: 1.3rem;
+}
+
+.cont-icon-resume {
+    width: 1rem;
+    height: 1rem;
+}
+
+.cont-img-gallery {
+    height: 15vw;
+}
+
+.cont-img-gallery > img {
+    height: 55vw;
+}
+
+.card-hover {
+    opacity: 0;
+}
+
+.cont-img-gallery:hover > .card-hover {
+    opacity: .5;
+}
+
+.form-textarea > textarea {
+    resize: none;
+    height: 6rem;
+}
+
+.cont-icon-contact {
+    width: .8rem;
+    height: .8rem;
+}
+
+.cont-icon-footer {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: .4rem;
+}
+
+.col-footer-icon {
+    width: 2rem;
+}
